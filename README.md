@@ -1,7 +1,7 @@
 vim-lolita
 ============================
 
-This repository contains snippets for Lolita CMS
+This repository contains snippets for Lolita CMS https://github.com/ithouse/lolita
 
 
 Installation
@@ -16,11 +16,13 @@ Usage
 -----
 
 To use snippets you need to load lolita scope into snipmate! You can do this with the folowing command in VIM:
-:SnipMateLoadScope lolita  
-
-Or you add to your .vimrc:
-let g:snipMate.scope_aliases['ruby'] = 'ruby,rails,lolita'
-
+```
+  :SnipMateLoadScope lolita  
+```
+Or you can add to your .vimrc:
+```
+  let g:snipMate.scope_aliases['ruby'] = 'ruby,rails,lolita'
+```
 
 License
 -------
