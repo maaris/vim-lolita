@@ -1,0 +1,71 @@
+snippet lol
+	lolita do
+		${1}
+	end
+
+snippet tab
+	tab(:${1:content}) do
+		${0}
+	end
+
+snippet lis
+	list do
+		${1}
+	end
+
+snippet sea
+	search ${1:true}
+
+snippet seo
+	search ${1:true}, fields: [:${2:arg1}, :${0:arg2}]
+
+snippet col
+	column ${:1:name}
+
+snippet pp
+	per_page ${1:20}
+
+snippet fie
+	field :${1:name}
+
+snippet fib
+	field :${1:name}, builder: :${0:builder_name}
+
+snippet lf
+	lolita_for :${1:resources}
+
+snippet ilc
+	include Lolita::Configuration
+
+snippet pm
+	pagination_method :${1:method_name}
+
+snippet flt
+	filter :${1:name}, :${0:field_name}
+
+snippet flb
+	filter do
+		field :${1:name}, title: "${0:Title}"
+	end
+
+snippet colf
+	column :${1:name} do
+		formatter do |value, record, view|
+			${0}
+		end
+	end
+
+snippet coll
+	column :${1:name} do
+		formatter do|value, record, view|
+			view.link_to(${2:value}, view.url_for(action: '${3:edit}', id: ${0:value}))
+		end
+	end
+
+snippet nff
+	nested_fields_for :${1:resource} do
+		field :${0:field_name}
+	end
+
+snippet ilt
+	include Lolita::Translation

@@ -1,0 +1,9 @@
+{
+  "name" : "vim-lolita",
+  "author" : "Māris Cīlītis",
+  "maintainer" : "maaris",
+  "repository" : {"type": "git", "url": "git://github.com/maaris/vim-lolita.git"},
+  "dependencies" : {
+  },
+  "description" : "set of snippets for lolita cms"
+}
